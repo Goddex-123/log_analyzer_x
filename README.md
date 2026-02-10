@@ -4,7 +4,7 @@
 
   <br/>
 
-  [![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://log-analyzer-x.streamlit.app)
+  [![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://loganalyzerx.streamlit.app/)
   
   <br/>
 
