@@ -4,6 +4,10 @@
 
   <br/>
 
+  [![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://log-analyzer-x.streamlit.app)
+  
+  <br/>
+
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Detect+Threats+In+Real-Time;Visualize+Performance+Bottlenecks;AI-Powered+Anomaly+Detection;Enterprise-Grade+Security+Analytics)](https://git.io/typing-svg)
 
   <br/>
