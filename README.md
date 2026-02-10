@@ -1,88 +1,81 @@
-# 🛡️ Log Analyzer X
-### Enterprise Security & Performance Intelligence Platform
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=300&section=header&text=Log%20Analyzer%20X&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Enterprise%20Security%20&%20Performance%20Intelligence&descAlignY=51&descAlign=62" alt="Log Analyzer X Header" width="100%"/>
+
+  <br/>
+
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Detect+Threats+In+Real-Time;Visualize+Performance+Bottlenecks;AI-Powered+Anomaly+Detection;Enterprise-Grade+Security+Analytics)](https://git.io/typing-svg)
+
+  <br/>
+  
+  ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+  ![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+  ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+  ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+  ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</div>
 
 ---
 
-**Log Analyzer X** is a production-grade security and performance analytics platform designed for SOC analysts, SREs, and data engineers. It ingests raw server logs and transforms them into actionable intelligence using advanced machine learning, behavioral analytics, and real-time visualization.
+<br/>
 
-## ✨ Key Features
+## ⚡ Tech Stack
 
-### 🔒 Security Intelligence
-- **Threat Detection**: Real-time identification of brute force attacks, credential stuffing, and botnets.
-- **MITRE ATT&CK Mapping**: Maps detected anomalies to known adversary tactics and techniques.
-- **Geo-Anomalies**: Visualizes suspicious access patterns across global maps.
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,streamlit,pandas,sklearn,vscode,github,git&theme=dark" />
+  </a>
+</div>
 
-### 🚀 Performance & SRE
-- **SLA Monitoring**: Tracks 95th/99th percentile latency and error rates against defined thresholds.
-- **Bottleneck Detection**: Automatically identifies slow endpoints and resource-constrained services.
-- **Health Scores**: Composite 0-100 health metrics for every microservice.
+<br/>
 
-### 🧠 Advanced ML Engine
-- **Isolation Forest**: Unsupervised anomaly detection for zero-day threat identification.
-- **Behavioral Clustering (KMeans)**: Segments users into archetypes (Power Users, Scrapers, Normal) based on activity.
-- **Risk Scoring**: Multi-factor risk index for every IP and User ID.
+## 🚀 Key Capabilities
 
-### 📊 Enterprise Reporting
-- **Automated Reports**: Generates PDF/HTML reports for Executive Summaries, Security Audits, and SLA Compliance.
-- **Visual Analytics**: Interactive heatmaps, Sankey diagrams, and trend timelines.
+| **🛡️ Security Intelligence** | **⚡ Performance Engineering** | **🧠 AI & ML Engine** |
+|:---:|:---:|:---:|
+| <img src="https://cdn-icons-png.flaticon.com/512/2092/2092663.png" width="50"/> | <img src="https://cdn-icons-png.flaticon.com/512/8062/8062325.png" width="50"/> | <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="50"/> |
+| **Real-Time Threat Detection**<br>Brute Force, Credential Stuffing & Botnets | **SLA Monitoring**<br>95th/99th Percentile Latency Tracking | **Anomaly Detection**<br>Isolation Forest for Zero-Day Threats |
+| **MITRE ATT&CK Mapping**<br>Tactics & Techniques Classification | **Bottleneck Analysis**<br>Slow Endpoint Identification | **Behavioral Clustering**<br>KMeans User Profiling |
+| **Geo-Fencing**<br>Global Attack Surface Visualization | **Microservice Health**<br>Composite Health Scores (0-100) | **Risk Scoring**<br>Multi-Factor User Risk Index |
 
-## 🛠️ Technology Stack
-
-- **Frontend**: Streamlit (with custom CSS injection for Dark Mode)
-- **Data Processing**: Pandas, NumPy
-- **Machine Learning**: Scikit-Learn (Isolation Forest, KMeans, DBSCAN)
-- **Visualization**: Plotly Express, Plotly Graph Objects
-- **Reporting**: Jinja2, FPDF2
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Python 3.9+
-- Pip
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/log_analyzer_x.git
-   cd log_analyzer_x
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-4. **Generate Data (Optional)**
-   - Click the **"🎲 Generate Sample Data"** button in the sidebar to instantly create 50,000+ realistic log records with simulated attacks.
-   - Or upload your own CSV log files.
+<br/>
 
 ## 📂 Project Structure
 
-```
+```bash
 log_analyzer_x/
-├── analytics/       # Security, Usage, Performance engines
-├── config/          # Settings, Themes, Thresholds
-├── ingestion/       # File handling & Schema inference
-├── ml/              # Machine Learning models (IsoForest, KMeans)
-├── pages/           # Streamlit dashboard pages
-├── reports/         # HTML/PDF report generators
-├── utils/           # Shared helpers & formatters
-├── visualization/   # Plotly chart definitions
-├── app.py           # Main application entry point
-└── requirements.txt # Project dependencies
+├── 📂 analytics/       # 🔍 Core Analysis Engines (Security, Usage, Performance)
+├── 📂 config/          # ⚙️ Configuration, Themes, & Settings
+├── 📂 ingestion/       # 📥 Data Ingestion & Schema Inference
+├── 📂 ml/              # 🤖 Machine Learning Models (IsoForest, KMeans)
+├── 📂 pages/           # 📄 Streamlit Dashboard Interfaces
+├── 📂 reports/         # 📑 PDF/HTML Report Generators
+├── 📂 utils/           # 🛠️ Shared Utilities & Formatters
+├── 📂 visualization/   # 📊 Plotly Chart Definitions
+└── 🐍 app.py           # 🚀 Main Application Entry Point
 ```
+
+<br/>
+
+## 🚀 Quick Start
+
+### 1️⃣ Clone & Install
+```bash
+git clone https://github.com/Goddex-123/log_analyzer_x.git
+cd log_analyzer_x
+pip install -r requirements.txt
+```
+
+### 2️⃣ Run Application
+```bash
+streamlit run app.py
+```
+
+### 3️⃣ Instant Demo Data
+> **Pro Tip:** Click the `🎲 Generate Sample Data` button in the sidebar to instantly generate **50,000+ realistic log records** with simulated attacks!
+
+<br/>
 
 ## 🤝 Contributing
 
@@ -94,12 +87,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<br/>
+
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-<p align="center">
-  Built with ❤️ by <b>Antigravity</b>
-</p>
+<div align="center">
+  <sub>Built with ❤️ by <b>Antigravity</b></sub>
+</div>
